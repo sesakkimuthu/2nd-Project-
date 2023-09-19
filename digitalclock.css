@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size:'Poppins', sans-serif; 
+}
+@font-face {
+  font-family:digital-7;
+  src: url(FontsFree-Net-DS-DIGIB-2.ttf);
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  //background-color: #4c64d1;
+background-image: url(/image/pexels-photo-614117.webp);
+background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+  gap: 50px;
+}
+/*
+.clock{
+  color: white;
+  font-size: 80px;
+  justify-content: center;
+  text-align: center;
+  line-height: 180px;
+}
+*/
+h2{
+  color: rgb(218, 210, 210);
+  font-size: 50px;
+  font-weight: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.frame{
+  width: 500px;
+  height: 300px;
+  background-color:hsl(240, 1%, 14%);
+  border: 40px solid #ffd904;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  color: white;
+  font-size: 90px;
+  justify-content: center;
+  text-align: center;
+  line-height: 180px;
+}
+.clock{
+  font-family:digital-7;
+  color: rgb(255, 3, 3);
+  font-size: 65px;
+  text-shadow: 0 0 5px;
+}
+h2:hover{
+  color: rgb(247, 223, 6);
+  text-shadow: 0 0 5px #f1e207,
+  0 0 25px #fae901,0 0 50px #f7b603,
+  0 0 100px #ffd900; 
+
+}
+
+
